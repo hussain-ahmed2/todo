@@ -3,7 +3,7 @@ import React from "react";
 function Header({ handleClick, display }) {
   return (
     <>
-      <header className="h-14 sticky top-0 border-b-[1px] shadow">
+      <header className="h-14 fixed w-full top-0 border-b-[1px] shadow">
         <nav className="flex items-center h-full justify-between px-5 max-w-5xl mx-auto">
           <h1 className="text-3xl font-bold">Todo.</h1>
           <div className="flex">

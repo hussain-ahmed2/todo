@@ -7,7 +7,7 @@ function Content({ data, setData }) {
 
   return (
     <>
-      <main className="h-[calc(100vh-112px)] bg-neutral-100">
+      <main className="h-[calc(100vh-56px)] bg-neutral-100 pt-14">
         <section className="flex items-center justify-center pt-10 px-5">
           <div className="border-[1px] border-emerald-700 p-2 max-w-[768px] w-full bg-white flex flex-col-reverse gap-2 rounded-md">
             {data.length ? (
